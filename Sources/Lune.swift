@@ -15,7 +15,7 @@ public class Lune {
     
     typealias CompletionHandler = (_ shortLink:URL?,_ longLink:URL?, _ error: Error?) -> Void
     
-    func build(
+    public func build(
         linkParams: LinkContract,
         urlParams: [String: String],
         _ completionHandler:@escaping CompletionHandler) {
