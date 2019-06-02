@@ -13,7 +13,7 @@ public class Lune {
 
     public static let shared: Lune = Lune()
     
-    typealias CompletionHandler = (_ shortLink:URL?,_ longLink:URL?, _ error: Error?) -> Void
+    public typealias CompletionHandler = (_ shortLink:URL?,_ longLink:URL?, _ error: Error?) -> Void
     
     public func build(
         linkParams: LinkContract,
